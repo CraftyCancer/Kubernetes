@@ -81,7 +81,8 @@ The controller manager controls lots of different things in the cluster. A Contr
 The Node Controller is reponsbile for monitoring the status of nodes & takes the necessary action for keeping the nodes running.
 Monitoring for the Node-Controller is done through Kube-API Server. 
 
-![node-controler](https://github.com/CraftyCancer/Kubernetes/assets/113592437/ad8a3cc1-23e2-474f-8042-a6298a76447b)
+![node-controler](https://github.com/CraftyCancer/Kubernetes/assets/113592437/83e63451-4ad8-46c7-9fe7-69da4f5aedc4)
+
 
 Node Controller checks the status of every nodes in 5 Seconds.
 If any of the node stops working, the heartbeat will be marked as "Unreachable" (it will wait for 40s).
@@ -134,7 +135,8 @@ Before getting into next level of creating pods, deployment, RS (replica set) & 
 
 The mentioned Life cycle is additional and which gives us on minimal data how the GET, PUT request works under Kube API-Server and include other compoments, 
 
-![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/lifecyle.png)
+![lifecyle](https://github.com/CraftyCancer/Kubernetes/assets/113592437/b40ab64a-fb21-4600-b100-f3cc91a9d667)
+
 
 # Installtion & Working with K8s - Local Cluster
 
@@ -151,14 +153,14 @@ Once the both the installtion is done, we can go ahead and start the minikube cl
 
 Once you run the above command, you will see the below details:
 
-![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/Minikube-start.png)
+<img width="683" alt="Minikube-start" src="https://github.com/CraftyCancer/Kubernetes/assets/113592437/8424c69b-a470-4b16-aef1-92e4a428c992">
+
 
 To verify the K8s 9s enabled and working on minikube, run the below command:
 
 > kubectl get svc
 
-![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/get-svc.png)
-
+<img width="683" alt="get-svc" src="https://github.com/CraftyCancer/Kubernetes/assets/113592437/1cebdb5e-7c14-44d8-a2c6-9ae2d66a4ad6">
 
 **Lets Start with Creating & Deleting Resource on our local cluster**
 
