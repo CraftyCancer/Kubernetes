@@ -185,5 +185,6 @@ A K8s definition file always contains four top level fields as:
 
 **Example:**
 
+https://github.com/CraftyCancer/Kubernetes/blob/65076ea45a8b4722f50f2c00c97e761d91b0c495/Pod/example.yaml#L1C1-L6
 
 
