@@ -13,7 +13,8 @@ K8s considers mnost of the orperational needs for appliation containers. The hig
 
 # Kubernetes Architecture
 
-![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/4d40915a-346a-42a6-b800-58124272e007)
+![Alt Text](Images/Archi.png)
+
 
 As per the above image we are able to see the K8s includes two major players, Master & Nodes.
 Before getting deep into the Architecture understanding, lets understand some terminalogy which we will be using in the learning factor.
@@ -149,14 +150,13 @@ Once the both the installtion is done, we can go ahead and start the minikube cl
 
 Once you run the above command, you will see the below details:
 
-<img width="683" alt="minikube start" src="https://github.com/CraftyCancer/Kubernetes/assets/113592437/3b4c6a5b-ac7e-4864-83d8-ed59a0a0b8ac">
+![Alt Text](Images/Minikube-start.png)
 
 To verify the K8s 9s enabled and working on minikube, run the below command:
 
 > kubectl get svc
 
-![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/a71d81f6-85af-49aa-ad52-1997eeeeefb1)
-
+![Alt Text](Images/get-svc.png)
 
 
 **Lets Start with Creating & Deleting Resource on our local cluster**
