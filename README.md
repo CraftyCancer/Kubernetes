@@ -185,6 +185,15 @@ A K8s definition file always contains four top level fields as:
 
 **Example:**
 
-https://github.com/CraftyCancer/Kubernetes/blob/65076ea45a8b4722f50f2c00c97e761d91b0c495/Pod/example.yaml#L1C1-L6
+```
+apiVersion: v1
+kind: Pod
+metadata: 
+    name: 
+spec:
+    container: 
+```
+
+Under the metadata and spec the name and container are the key value pair, which we need for the deploying the container on specific pod, but the other mentioned fields are mandatory to be in the yaml file.
 
 
