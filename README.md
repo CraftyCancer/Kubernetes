@@ -13,7 +13,7 @@ K8s considers mnost of the orperational needs for appliation containers. The hig
 
 # Kubernetes Architecture
 
-![Alt Text](Images/Archi.png)
+![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/Archi.png)
 
 
 As per the above image we are able to see the K8s includes two major players, Master & Nodes.
@@ -133,7 +133,7 @@ Before getting into next level of creating pods, deployment, RS (replica set) & 
 
 The mentioned Life cycle is additional and which gives us on minimal data how the GET, PUT request works under Kube API-Server and include other compoments, 
 
-![lifecyle](https://github.com/CraftyCancer/Kubernetes/assets/113592437/6075ab5f-4398-4796-9e9e-26c86cb8d18b)
+![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/lifecyle.png)
 
 # Installtion & Working with K8s - Local Cluster
 
@@ -150,13 +150,13 @@ Once the both the installtion is done, we can go ahead and start the minikube cl
 
 Once you run the above command, you will see the below details:
 
-![Alt Text](Images/Minikube-start.png)
+![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/Minikube-start.png)
 
 To verify the K8s 9s enabled and working on minikube, run the below command:
 
 > kubectl get svc
 
-![Alt Text](Images/get-svc.png)
+![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/get-svc.png)
 
 
 **Lets Start with Creating & Deleting Resource on our local cluster**
