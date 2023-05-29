@@ -13,7 +13,8 @@ K8s considers mnost of the orperational needs for appliation containers. The hig
 
 # Kubernetes Architecture
 
-![Alt Text](https://github.com/CraftyCancer/Kubernetes/blob/d6d261f6ba8d796192ad77ae7d5c4782d787ec06/Images/Archi.png)
+
+![Archi](https://github.com/CraftyCancer/Kubernetes/assets/113592437/1bb9a6ff-5313-4060-a109-689676168cda)
 
 
 As per the above image we are able to see the K8s includes two major players, Master & Nodes.
