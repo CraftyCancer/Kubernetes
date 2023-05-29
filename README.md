@@ -128,6 +128,11 @@ A Pod is an single instance of an application.
 
 Before getting into next level of creating pods, deployment, RS (replica set) & services, Will go through a basic installtion of running a local cluster for going ahead with practial and hands-on our K8s Cluster.
 
+## Life Cycle
+
+The mentioned Life cycle is additional and which gives us on minimal data how the GET, PUT request works under Kube API-Server and include other compoments, 
+
+![lifecyle](https://github.com/CraftyCancer/Kubernetes/assets/113592437/6075ab5f-4398-4796-9e9e-26c86cb8d18b)
 
 # Installtion & Working with K8s - Local Cluster
 
@@ -153,5 +158,7 @@ To verify the K8s 9s enabled and working on minikube, run the below command:
 ![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/a71d81f6-85af-49aa-ad52-1997eeeeefb1)
 
 
+
 **Lets Start with Creating & Deleting Resource on our local cluster**
+
 
