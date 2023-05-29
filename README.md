@@ -26,7 +26,7 @@ When it recieves an instruction to lad a container or pod on the node, it reques
 
 The Kubelet monitors the pods and reports it back to the respective compoments for keeping alive the container or pod. 
 
-## Master Node
+## Master Components
 
 Master Node is reponsible for managaing the Kubernetes cluster (Manage, Plan, Schedule, Monitore Nodes).
 Under Master Node we are having different components: 
@@ -56,4 +56,30 @@ Some points to understand what is Key-Value Store:
 2. The ETCD servive runs on port 2379 (default port).
 3. ETCD Control Client is a command line tool for ETCD. We can use it to store & retrieve the Key-Value pairs. 
 
+The below command is to store the data in store:
+> etcdctl set key1 value1
 
+The below command is to retrieve the data from store:
+>etcdctl get key1 
+
+### 3. Kube Scheduler
+
+The Kube Scheduler is only responsible to decide which pod will run on which node. It doesn't place the pod on specified or any node, it just decides.
+The Sceduler treis to look at each pod(specification) and then assign the nodes to them. Those specification may be CPU, Memory or more.
+
+The pods assigned to specific nodes as per the 
+
+**Filter Nodes:** As per the CPU & Memory requirment the scheduler filter the Nodes for the specific pod. 
+**Rank Nodes:** The Scheduler checks for the later resoources whcih can be used by other pods (avilable on the Node), on the basis of that the pods are assigned to node.
+
+
+### 4. Kube-Controller Manager
+
+The controller manager is used to check the details or status of the pods or nodes are running or no. 
+
+- Watch Status
+- Remediate Situation
+
+The controller manager controls lots of different things in the cluster. A Controller is a process that continuously monitor the state of various compoments within the system & work towards keeping the whole cluster working as per the deseried state.
+
+**Node-Controller**
