@@ -46,3 +46,14 @@ When we run a kubelet command, the Kubelet utilty is in fact reaching to the Kub
 
 1. The Kube-Api Server initial authenticate the request and validate it.
 2. API Server provides an HTTP/HTTPS server, which provides a RESTful API for all the compoments in the K8s master. (Example: GET reosuce status such as pod, POST to create a new resoruce and also watch a resource. API Server reads and updates ETCD, which is K8s backend data store.
+
+### 2. ETCD
+
+ETCD is a distributed reliated key-value store that is simple, secure & fast.
+
+Some points to understand what is Key-Value Store:
+1. A Key value store the infromation in the from of document or pages.
+2. The ETCD servive runs on port 2379 (default port).
+3. ETCD Control Client is a command line tool for ETCD. We can use it to store & retrieve the Key-Value pairs. 
+
+
