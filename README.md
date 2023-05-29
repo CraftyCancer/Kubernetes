@@ -165,3 +165,25 @@ To verify the K8s 9s enabled and working on minikube, run the below command:
 **Lets Start with Creating & Deleting Resource on our local cluster**
 
 
+## Creation of deployment,service or pods using yaml
+
+K8s uses the yaml as input for object such as pods, replica set, deployment, services etc.
+
+A K8s definition file always contains four top level fields as:
+ - apiVersion
+ - kind
+ - metadata
+ - spec
+
+
+| Kind    | apiVersion |
+| ------- | ---------- |
+| Pod     | v1         |
+| Service | v1         |
+| ReplicaSet | apps/v1 |
+| Deployment | apps/v1 |
+
+**Example:**
+
+
+
