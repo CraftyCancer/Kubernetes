@@ -255,3 +255,7 @@ To Store the manifest pod file, without creating the pod, can be used by:
 >  kubectl run nginx-1 --image nginx --dry-run=client -o yaml > client.yaml
 
 This above command will be just used for pod manifest creation, which will be stored under client.yaml
+
+To delete the pod from default namespace
+
+> kubectl delete pod pod-name
