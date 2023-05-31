@@ -216,6 +216,8 @@ This will create a pod under the default namespace.
 
 The above pod is created with an single container, lets check how to get it done with two conatiners. 
 
+https://github.com/CraftyCancer/Kubernetes/blob/9f5c8ed8e9ac7d1f67c07637857c65e8b4ad275b/Pod/pod-two-cont.yaml#L1-L11
+
 Use the above yaml file and then deploy that on K8s cluster. Use the following command.
 
 > kubectl create -f pod-two-cont.yaml
@@ -223,3 +225,21 @@ Use the above yaml file and then deploy that on K8s cluster. Use the following c
 This will create a pod under the default namespace.
 
 > kubectl get pods
+
+
+![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/8d57f389-90d9-4de2-8c2e-ca97842be7b8)
+
+In this way, we can deploy the pods using single and multiple containers.
+
+To get a detailed information about the pod, use the following code:
+
+> kubectl describe pod pod-name
+
+To check the logs for specific pod we can use this command,
+
+> kubectl logs pod-name
+
+To check the logs for specifc container, we can use this command,
+
+> kubectl logs pod-name -c container-name
+
