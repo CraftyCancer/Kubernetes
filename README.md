@@ -196,4 +196,18 @@ spec:
 
 Under the metadata and spec the name and container are the key value pair, which we need for the deploying the container on specific pod, but the other mentioned fields are mandatory to be in the yaml file.
 
+## Create a POD
 
+Pod is the smallest deployable unit  in K8s. It can contain one or more containers. 
+
+Lets get started with the creation of single container pod on the our K8s Cluster. 
+
+https://github.com/CraftyCancer/Kubernetes/blob/26be07ef29ba9e21cfd839189c9ecf78d5052588/Pod/pod-def.yaml#L1-L9
+
+Use the above yaml file and then deploy that on K8s cluster. Use the following command.
+
+> kubectl create pod-def.yaml
+
+This will create a pod under the default namespace.
+
+> kubectl get pods
