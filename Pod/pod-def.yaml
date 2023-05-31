@@ -2,8 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod
-  type: front-end
 spec:
   containers: 
-    - name: nginx-container
+    - name: web
       image: nginx
