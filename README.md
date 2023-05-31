@@ -202,11 +202,23 @@ Pod is the smallest deployable unit  in K8s. It can contain one or more containe
 
 Lets get started with the creation of single container pod on the our K8s Cluster. 
 
-https://github.com/CraftyCancer/Kubernetes/blob/26be07ef29ba9e21cfd839189c9ecf78d5052588/Pod/pod-def.yaml#L1-L9
+https://github.com/CraftyCancer/Kubernetes/blob/8fd74965b6d88c2242dcf4d83aa6bb7ec4785dc4/Pod/pod-def.yaml#L1-L8
 
 Use the above yaml file and then deploy that on K8s cluster. Use the following command.
 
-> kubectl create pod-def.yaml
+> kubectl create -f pod-def.yaml
+
+This will create a pod under the default namespace.
+
+> kubectl get pods
+
+![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/828a7aaa-5b4f-4895-b0cb-55f2825e3589)
+
+The above pod is created with an single container, lets check how to get it done with two conatiners. 
+
+Use the above yaml file and then deploy that on K8s cluster. Use the following command.
+
+> kubectl create -f pod-two-cont.yaml
 
 This will create a pod under the default namespace.
 
