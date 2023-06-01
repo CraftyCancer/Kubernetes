@@ -270,4 +270,5 @@ As per the above diagram, we would like to create ReplicationController object w
 
 Lets take an example to work on the RC.
 
+https://github.com/CraftyCancer/Kubernetes/blob/4c84dc5b0f56d5382412558af703971f8317906b/Replica-Set/rc-example.yml#L1-L21
 
