@@ -276,4 +276,10 @@ Use the create command to apply the yaml which is used for RC.
 
 ![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/7c453b2e-a407-417a-b884-ffb23b5addb2)
 
+To get the current status of RC, we use the below command
+
+>kubectl get rc
+
+![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/a7075cfe-00ed-4187-afd6-2b01d2595f58)
+
 
