@@ -298,4 +298,12 @@ So if we want to scale the pods from 2 to 6, we can just edit and make changes.
 
 > kubectl edit rc nginx
 
+Other method from Scale Up/Down the ports, We can use this command:
+
+> kubectl scale --replicas=4 replicationcontroller/nginx
+
+To delete a RC, we can use the command:
+
+> kubectl delete rc rc-name
+
 
