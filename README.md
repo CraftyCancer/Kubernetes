@@ -2,7 +2,7 @@
 
 Kubernetes or K8s is an open-source container orchestration system for automating software deployment, scaling, and management, which was devloped by Google and now mantined by Cloud Native Computing Foundation. It is a platform for managing application containers across multiple hosts. It provides lots of management features for conatiner-oriented applications, such as auto scaling, rolling deployment, compute resources and volume management. 
 
-K8s considers mnost of the orperational needs for appliation containers. The highlights are:
+K8s considers most of the orperational needs for appliation containers. The highlights are:
 
  - Container Deployment.
  - Persistent Storage.
