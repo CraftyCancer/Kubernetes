@@ -282,4 +282,20 @@ To get the current status of RC, we use the below command
 
 ![image](https://github.com/CraftyCancer/Kubernetes/assets/113592437/a7075cfe-00ed-4187-afd6-2b01d2595f58)
 
+Lets, try one more thing, Since we saw the two RC Pods came up, we can use the same labels or creation of Pod.
+
+Use the below yaml and create the pod & lets see the result.
+
+https://github.com/CraftyCancer/Kubernetes/blob/9d1cfb80bee9d99180ba9087295070fa1205edb1/Pod/pod_rc.yml#L1-L13
+
+Once we create the pod, we will be seeing like the pod went into termination state and the pod dies, because the RC takes up the selector & check the desired state is matching or no. So the pods gets killed.
+
+### Scale of Replicas Count
+
+If we want to scale on demand, we could simple edit the K8s yaml file and the update replicas spec.
+
+So if we want to scale the pods from 2 to 6, we can just edit and make changes.
+
+> kubectl edit rc nginx
+
 
