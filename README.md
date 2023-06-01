@@ -258,3 +258,16 @@ To Store the manifest pod file, without creating the pod, can be used by:
 >  kubectl run nginx-1 --image nginx --dry-run=client -o yaml > client.yaml
 
 This above command will be just used for pod manifest creation, which will be stored under client.yaml
+
+
+## ReplicaSet(RS) / ReplicationController(RC)
+
+A pod is not self-healing. When a pod encounters failure, it won't recover on its own. ReplicaSet & ReplicationController comes into play. Both of these will ensure a specified number of replica pods are always up and running in the cluster. If a pod crashes for any reason, RS & RC will request to spin up a new pod. 
+
+![RC](https://github.com/CraftyCancer/Kubernetes/assets/113592437/638b2812-b566-406f-b38d-7cb4961e191e)
+
+As per the above diagram, we would like to create ReplicationController object with the desired count as two. 
+
+Lets take an example to work on the RC.
+
+
