@@ -1,21 +1,21 @@
-apiVersion: v1
-kind: ReplicationController
-metadata:
-  name: nginx
-spec:
-  replicas: 2
-  selector: 
-    project: chapter-1
-    service: web
-  template:
-    metadata:
-      name: nginx
-      labels:
-        project: chapter-1
-        service: web
-    spec:
-      containers:
-        - name: nginx
-          image: nginx
-          ports:
-            - containerPort: 80
+ apiVersion: v1
+ kind: ReplicationController
+ metadata:
+   name: nginx
+ spec:
+   replicas: 2
+   selector: 
+     project: chapter-1
+     service: web
+   template:
+     metadata:
+       name: nginx
+       labels:
+         project: chapter-1
+         service: web
+     spec:
+       containers:
+         - name: nginx
+           image: nginx
+           ports:
+             - containerPort: 80
