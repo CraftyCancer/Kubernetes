@@ -338,4 +338,16 @@ To directly deploy the deployment use the following code:
 
 > kubectl create deployment nginx-deploy --image-nginx -o yaml> nginx-deploy.yaml
 
+
+## Services
+
+This is an important part under K8s.
+
+1. K8s service enables communication between various compoment within & outside the application.
+2. K8s service helps us connect application together with other application or users.
+3. K8s service are the one which makes the group connectivity to the pods.
+
+There are different types of service:
+
+![Type of service](https://github.com/CraftyCancer/Kubernetes/assets/113592437/29634fac-67dd-4168-b173-9f288d15b318)
  
