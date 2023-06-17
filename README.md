@@ -316,4 +316,26 @@ Lets try to deploy the pod using the deployment file, which consist the pods & r
 
 https://github.com/CraftyCancer/Kubernetes/blob/031ba2d48042e8773bc191131d49883fa2e0affc/Deployment/example.yaml#L2-L21
 
+> kubectl apply -f example.yaml
 
+Once this is deployed we use the following codes to view the deployment on our cluster
+
+> kubectl get deploy
+
+Use the same command to get pods.
+
+> kubectl get pod
+
+To create a yaml using the K8s command:
+
+> kubectl create deployment deployment-name --image=image-name --dry-run=client -o yaml > deployment-name.yaml
+
+Example:
+
+> kubectl create deployment nginx-deploy --image=nginx --dry-run=client -o yaml > nginx-deploy.yaml
+
+To directly deploy the deployment use the following code:
+
+> kubectl create deployment nginx-deploy --image-nginx -o yaml> nginx-deploy.yaml
+
+ 
