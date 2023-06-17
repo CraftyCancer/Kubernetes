@@ -312,3 +312,8 @@ A Deployment provides declarative updates for Pods and ReplicaSets.
 
 ![Deployemtn](https://github.com/CraftyCancer/Kubernetes/assets/113592437/6b4de42e-d696-4b35-8d64-e22ffdd04311)
 
+Lets try to deploy the pod using the deployment file, which consist the pods & replicaset.
+
+https://github.com/CraftyCancer/Kubernetes/blob/031ba2d48042e8773bc191131d49883fa2e0affc/Deployment/example.yaml#L2-L21
+
+
