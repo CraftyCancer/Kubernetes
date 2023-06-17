@@ -306,4 +306,9 @@ To delete a RC, we can use the command:
 
 > kubectl delete rc rc-name
 
+## Deployment
+
+A Deployment provides declarative updates for Pods and ReplicaSets.
+
+![Deployemtn](https://github.com/CraftyCancer/Kubernetes/assets/113592437/6b4de42e-d696-4b35-8d64-e22ffdd04311)
 
