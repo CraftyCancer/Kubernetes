@@ -351,3 +351,11 @@ There are different types of service:
 
 ![Type of service](https://github.com/CraftyCancer/Kubernetes/assets/113592437/29634fac-67dd-4168-b173-9f288d15b318)
  
+**NodePort** 
+NodePort is the service which makes an internal port accessible on a port on the node.
+
+**ClusterIP**
+Here the services creates an virutalIp inside the cluster to enable the communication between different services such as a set of fronend server to backend server.
+
+**LoadBalancer**
+Loadbalancer, where it provisions a load balancer for the application supported in clouds.
